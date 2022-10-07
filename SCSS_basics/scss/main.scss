@@ -1,0 +1,12 @@
+.container {
+  width: 100vw;
+  height: 90vh;
+  background-color: aquamarine;
+
+  section {
+    .title {
+      line-height: 2em;
+      color: black;
+    }
+  }
+}
