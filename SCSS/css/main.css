@@ -1,0 +1,25 @@
+/* Colors */
+/* Sizes */
+/* Typography */
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: #a311ff;
+}
+
+.btn {
+  background-color: white;
+  border: 1px solid grey;
+  padding: 15px;
+  margin: 5px;
+  color: black;
+  border-radius: 10px;
+}
+.btn:hover {
+  cursor: pointer;
+}
+.btn:active {
+  opacity: 0.5;
+}
+
+/*# sourceMappingURL=main.css.map */

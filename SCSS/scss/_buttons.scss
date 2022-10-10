@@ -1,0 +1,13 @@
+@use "mixins";
+
+.btn {
+  @include mixins.button;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}

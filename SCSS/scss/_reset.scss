@@ -1,0 +1,7 @@
+@use "variables" as v;
+
+body {
+  height: 100vh;
+  margin: 0;
+  background-color: v.$bgcolor;
+}

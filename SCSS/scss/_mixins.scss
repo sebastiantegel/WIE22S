@@ -1,0 +1,10 @@
+@use "variables" as v;
+
+@mixin button {
+  background-color: white;
+  border: 1px solid grey;
+  padding: 15px;
+  margin: 5px;
+  color: black;
+  border-radius: 10px;
+}
