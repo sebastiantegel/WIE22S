@@ -1,13 +1,13 @@
 @use "mixins";
 
 .btn {
-  @include mixins.button;
+  @include mixins.button-color;
+}
 
-  &:hover {
-    cursor: pointer;
-  }
+.btn--yellow {
+  @include mixins.button-color(yellow);
+}
 
-  &:active {
-    opacity: 0.5;
-  }
+.btn--pink {
+  @include mixins.button-color(pink);
 }

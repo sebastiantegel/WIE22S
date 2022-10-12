@@ -4,21 +4,105 @@
 body {
   height: 100vh;
   margin: 0;
-  background-color: #a311ff;
+}
+
+.container {
+  background-color: aqua;
+  height: 100%;
+}
+@media screen and (min-width: 768px) {
+  .container {
+    background-color: green;
+    width: 75%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    background-color: salmon;
+    width: 66%;
+    margin: 0 auto;
+  }
 }
 
 .btn {
-  background-color: white;
+  background-color: #a311ff;
   border: 1px solid grey;
   padding: 15px;
-  margin: 5px;
+  width: 100%;
   color: black;
   border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .btn {
+    width: auto;
+    margin: 5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .btn {
+    width: 50%;
+    margin-bottom: 20px;
+  }
 }
 .btn:hover {
   cursor: pointer;
 }
 .btn:active {
+  opacity: 0.5;
+}
+
+.btn--yellow {
+  background-color: yellow;
+  border: 1px solid grey;
+  padding: 15px;
+  width: 100%;
+  color: black;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .btn--yellow {
+    width: auto;
+    margin: 5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .btn--yellow {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+.btn--yellow:hover {
+  cursor: pointer;
+}
+.btn--yellow:active {
+  opacity: 0.5;
+}
+
+.btn--pink {
+  background-color: pink;
+  border: 1px solid grey;
+  padding: 15px;
+  width: 100%;
+  color: black;
+  border-radius: 10px;
+}
+@media screen and (min-width: 768px) {
+  .btn--pink {
+    width: auto;
+    margin: 5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .btn--pink {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+.btn--pink:hover {
+  cursor: pointer;
+}
+.btn--pink:active {
   opacity: 0.5;
 }
 
