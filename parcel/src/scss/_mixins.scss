@@ -1,0 +1,49 @@
+@use "variables" as v;
+
+@mixin button {
+  background-color: white;
+  border: 1px solid grey;
+  padding: 15px;
+  margin: 5px;
+  color: black;
+  border-radius: 10px;
+}
+
+@mixin button-color($color: #a311ff) {
+  background-color: $color;
+  border: 1px solid grey;
+  padding: 15px;
+  width: 100%;
+  color: black;
+  border-radius: 10px;
+
+  @include tablet {
+    width: auto;
+    margin: 5px;
+  }
+
+  @include desktop {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:active {
+    opacity: 0.5;
+  }
+}
+
+@mixin tablet {
+  @media screen and (min-width: v.$tablet_breakpoint) {
+    @content;
+  }
+}
+
+@mixin desktop {
+  @media screen and (min-width: v.$desktop_breakpoint) {
+    @content;
+  }
+}

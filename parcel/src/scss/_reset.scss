@@ -1,0 +1,32 @@
+@use "variables" as v;
+@use "mixins" as m;
+
+body {
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: aqua;
+  height: 100%;
+
+  @include m.tablet {
+    background-color: green;
+    width: 75%;
+    margin: 0 auto;
+  }
+
+  @include m.desktop {
+    background-color: salmon;
+    width: 66%;
+    margin: 0 auto;
+  }
+}
+
+// @media screen and (min-width: 768px) {
+//   .container {
+//     background-color: green;
+//     width: 75%;
+//     margin: 0 auto;
+//   }
+// }

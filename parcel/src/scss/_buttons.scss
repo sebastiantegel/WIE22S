@@ -1,0 +1,13 @@
+@use "mixins";
+
+.btn {
+  @include mixins.button-color;
+}
+
+.btn--yellow {
+  @include mixins.button-color(yellow);
+}
+
+.btn--pink {
+  @include mixins.button-color(pink);
+}
