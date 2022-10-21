@@ -41,3 +41,12 @@ I detta projet tittar vi lite närmare på programstrukturer såsom if/else och 
 - [W3Schools - while](https://www.w3schools.com/js/js_loop_while.asp)
 - [W3Schools - DOM (from)](https://www.w3schools.com/js/js_htmldom.asp)
 - [W3Schools - DOM (to)](https://www.w3schools.com/js/js_htmldom_document.asp)
+
+## Events
+
+I detta projekt kommer vi att undersöka olika sätt att hantera händelser. Vi skall t.ex. göra klick-händelser och koppla ihop dessa med funktioner. För att lyckas med detta skall vi även göra lite funktioner. 
+
+- [W3Schools - functions](https://www.w3schools.com/js/js_functions.asp)
+- [W3Schools - events](https://www.w3schools.com/js/js_events.asp)
+- [W3Schools - DOM events](https://www.w3schools.com/js/js_htmldom_events.asp)
+- [W3Schools - event listener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
