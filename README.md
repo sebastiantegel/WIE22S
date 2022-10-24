@@ -50,3 +50,10 @@ I detta projekt kommer vi att undersöka olika sätt att hantera händelser. Vi 
 - [W3Schools - events](https://www.w3schools.com/js/js_events.asp)
 - [W3Schools - DOM events](https://www.w3schools.com/js/js_htmldom_events.asp)
 - [W3Schools - event listener](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
+
+## Arrays
+
+I detta projekt börjar vi titta på en ny struktur, listor (arrays). Vi använder listor för att hantera många värden som hänger ihop. Vi lär oss att loopa listor och hantera värden enskilt.
+
+- [W3Schools - arrays](https://www.w3schools.com/js/js_arrays.asp)
+- [W3Schools - array/methods](https://www.w3schools.com/js/js_array_methods.asp)
