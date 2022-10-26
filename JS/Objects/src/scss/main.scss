@@ -1,0 +1,15 @@
+.person {
+  border: 1px solid grey;
+
+  &__name {
+    border: 1px solid red;
+  }
+
+  &__age {
+    border: 1px solid blue;
+  }
+
+  &__ismarried {
+    border: 1px solid greenyellow;
+  }
+}

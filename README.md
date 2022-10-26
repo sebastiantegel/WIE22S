@@ -57,3 +57,12 @@ I detta projekt börjar vi titta på en ny struktur, listor (arrays). Vi använd
 
 - [W3Schools - arrays](https://www.w3schools.com/js/js_arrays.asp)
 - [W3Schools - array/methods](https://www.w3schools.com/js/js_array_methods.asp)
+
+## Objects
+
+Nu skall vi börja beskriva mer komplexa strukturer. För detta behöver vi objekt. Objekt kan ses som en samling med variabler som hålls ihop av ett objekt. Vi tittar även lite mer på hur vi kan skapa html med hjälp av javascript.
+
+- [W3Schools - Objects](https://www.w3schools.com/js/js_objects.asp)
+- [W3Schools - Class](https://www.w3schools.com/js/js_class_intro.asp)
+- [W3Schools - Definitions](https://www.w3schools.com/js/js_object_definition.asp)
+- [W3Schools - Properties](https://www.w3schools.com/js/js_object_properties.asp)
