@@ -66,3 +66,11 @@ Nu skall vi börja beskriva mer komplexa strukturer. För detta behöver vi obje
 - [W3Schools - Class](https://www.w3schools.com/js/js_class_intro.asp)
 - [W3Schools - Definitions](https://www.w3schools.com/js/js_object_definition.asp)
 - [W3Schools - Properties](https://www.w3schools.com/js/js_object_properties.asp)
+
+## BOM
+
+Här börjar vi titta på vad webbläsaren kan ge oss för funktionalitet. Vi går igenom history, tittar på setTimeout och setInterval och till sista använder vi geolocation för att ta reda på var i världen vi faktiskt är.
+
+- [W3Schools - history](https://www.w3schools.com/js/js_window_history.asp)
+- [W3Schools - timing](https://www.w3schools.com/js/js_timing.asp)
+- [W3Schools - goelocation](https://www.w3schools.com/js/js_api_geolocation.asp)
