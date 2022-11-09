@@ -1,4 +1,5 @@
 import axios from "axios";
+import { OmdbResponse } from "./models/omdbresponse";
 
 console.log("Start");
 
@@ -38,7 +39,13 @@ console.log("End");
 
 axios.get("http://www.omdbapi.com/?apikey=416ed51a&s=star").then((response) => {
   console.log(response.data);
-  createHtml(response.data.Search);
+  let omdbResponse = new OmdbResponse(
+    response.data.totalResults,
+    response.data.Search
+  );
+
+  console.log(omdbResponse);
+  createHtml(omdbResponse.movies);
 });
 
 function createHtml(movies) {
@@ -47,9 +54,9 @@ function createHtml(movies) {
     let title = document.createElement("h3");
     let img = document.createElement("img");
 
-    title.innerHTML = movies[i].Title;
-    img.src = movies[i].Poster;
-    img.alt = movies[i].Title;
+    title.innerHTML = movies[i].name;
+    img.src = movies[i].imageUrl;
+    img.alt = movies[i].name;
 
     container.addEventListener("click", () => {
       console.log("Du valde:", movies[i]);
