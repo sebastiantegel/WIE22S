@@ -74,3 +74,20 @@ Här börjar vi titta på vad webbläsaren kan ge oss för funktionalitet. Vi g�
 - [W3Schools - history](https://www.w3schools.com/js/js_window_history.asp)
 - [W3Schools - timing](https://www.w3schools.com/js/js_timing.asp)
 - [W3Schools - goelocation](https://www.w3schools.com/js/js_api_geolocation.asp)
+
+## Ajax
+
+Nu börjar det hända saker. Vi kommer att hämta information från api:er och se hur vi kan presentera denna i webbläsaren!
+
+- [W3Schools - Promises](https://www.w3schools.com/js/js_promise.asp)
+- [W3Schools - fetch](https://www.w3schools.com/js/js_api_fetch.asp)
+- [axios] - (https://axios-http.com/docs/intro)
+
+## Typescript - Start
+
+Och nu skall vi gå över till Typescript för att börja beskriva våra objekt på ett bättre sätt. För att få typescript att fungera med parcel på ett bra sätt krävs det lite extra konfigurering. Titta på länkarna nedan för att få hjälp med detta.
+
+- [Typescript - Installation](https://www.typescriptlang.org/docs/handbook/typescript-tooling-in-5-minutes.html)
+- [Typescript](https://www.typescriptlang.org/docs/handbook)
+- [parcel/typescript](https://parceljs.org/languages/typescript/#tsc)
+- [parcel/typescript - validator](https://parceljs.org/languages/typescript/#experimental-validator-plugin)
