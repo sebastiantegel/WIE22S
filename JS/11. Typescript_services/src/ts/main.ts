@@ -1,15 +1,19 @@
-import axios from "axios";
 import { IMovie } from "./models/IMovie";
-import { IOmdbResponse } from "./models/IOmdbResponse";
+import { searchMovies } from "./services/movieService";
 
 (document.getElementById("searchForm") as HTMLFormElement).addEventListener(
   "submit",
-  (e: SubmitEvent) => {
+  async (e: SubmitEvent) => {
     e.preventDefault();
 
     let searchText = handleSearchText();
 
-    getData(searchText);
+    // searchMovies(searchText).then((movies) => {
+    //   createHtml(movies);
+    // });
+
+    let movies = await searchMovies(searchText);
+    createHtml(movies);
   }
 );
 
@@ -22,17 +26,6 @@ function handleSearchText(): string {
   searchInput.value = "";
 
   return searchText;
-}
-
-function getData(searchText: string) {
-  axios
-    .get<IOmdbResponse>(
-      // "http://www.omdbapi.com/?apikey=416ed51a&s=" + searchText
-      `http://www.omdbapi.com/?s=${searchText}&apikey=416ed51a`
-    )
-    .then((response) => {
-      createHtml(response.data.Search);
-    });
 }
 
 function createHtml(movies: IMovie[]) {
